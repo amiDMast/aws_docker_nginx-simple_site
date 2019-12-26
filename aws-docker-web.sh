@@ -20,7 +20,7 @@ sudo yum install git -y
 
 sudo mkdir /DOCKER/
 sudo cd /DOCKER/
-sudo git clone http://gitlab.lenex.com.ua/root/docker-nginx.git
+sudo git clone https://github.com/amiDMast/docker-nginx.git
 sudo mv ./docker-nginx/* .
 sudo rm -rf ./docker-nginx
 sudo docker-compose build
